@@ -1,0 +1,33 @@
+/* Estilo geral */
+body {
+font-family: Arial, sans-serif;
+text-align: center;
+}
+
+/* Caixa com margin e padding */
+.caixa {
+background-color: lightblue;
+margin: 40px; /* espaço fora da caixa */
+padding: 60px; /* espaço dentro da caixa */
+border: 2px solid navy;
+}
+
+/* Container flex */
+.container {
+display: flex; /* ativa o flexbox */
+justify-content: center; /* centraliza os itens */
+margin: 30px;
+background-color: lightgray;
+padding: 20px;
+border-radius: 8px;
+}
+
+/* Itens dentro do flex */
+.item {
+background-color: salmon;
+color: white;
+font-size: 20px;
+margin: 15px;
+padding: 30px;
+border-radius: 10px;
+}
